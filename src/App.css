@@ -1,14 +1,29 @@
 .container{
   width: 100vw;
   height: 100vh;
-}
-
-.details-block{
-  width: 20vw;
-  height: 100vh;
+  display: flex;
+  justify-content: space-between;
 }
 
 .grey {
   background-color: grey;
 }
+
+.details-block{
+  width: 30vw;
+  height: 100vh;
+}
+
+.right-side-wrapp{
+  width: 60vw;
+  height: 90vh;
+  align-self: center;
+  margin: 0 auto;
+}
+
+.soundcloud-btn{
+  height: 40%;
+  width: 7%;
+}
+
 

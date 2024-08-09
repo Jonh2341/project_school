@@ -5,8 +5,8 @@ import RightSide from "./RightSide";
 function App() {
   return (
     <div className="container">
-      <Details></Details>
-      <RightSide></RightSide>
+      <Details />
+      <RightSide />
     </div>
   );
 }
